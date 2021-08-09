@@ -1,0 +1,242 @@
+@font-face {
+    font-family: header;
+    src: url(AlphaKids.ttf);
+}
+
+@font-face {
+    font-family: header1;
+    src: url(AmazingKids.ttf);
+}
+
+@font-face {
+    font-family: header2;
+    src: url(FUNCY.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Code Pro', monospace;
+    
+}
+
+.header {
+    width: 100%;
+    height: 670px;
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.5)), url(images/about.webp);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    
+}
+
+.logo-title {
+    font-family: header1;
+    font-size: 90px;
+    line-height: 1;
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    color: rgb(64, 67, 247);
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.header-title{
+    font-family: header1;
+    text-align: center;
+    margin-top: 15%;
+    font-size: 75px;
+    color: rgb(20, 124, 243);
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    font-weight: bolder;
+}
+
+.header p {
+    font-family: header;
+    text-align: center;
+    color: black;
+    font-size: 55px;
+    font-weight: 900;
+    text-shadow: -1px -1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255), -1px 1px rgb(255, 255, 255), 1px 1px 0 rgb(255, 255, 255);
+
+}
+
+.header .btn {
+    margin-left: 45%;
+    border: 1px solid rgb(135, 135, 238);
+    padding: 20px;
+    background: rgb(104, 104, 219);
+    border-radius: 16px;
+    cursor: pointer;
+    transition: 0.5s;
+    
+}
+
+.header .btn:hover {
+    background: transparent;
+}
+
+.header img {
+    width: 30px;
+    height: 30px;
+    left: 95%;
+}
+
+#sideNav {
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    right: -250px;
+    top: 0;
+    background:linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.6));
+    z-index: 2;
+    font-size: large;
+    transition: .5s;
+}
+
+
+
+nav ul li {
+    list-style: none;
+    margin: 50px 20px; 
+       
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+     
+}
+
+#menuBtn {
+    width: 50px;
+    position: fixed;
+    right: 65px;
+    top: 35px;
+    z-index: 2;
+    cursor: pointer;
+}
+
+/*about*/
+
+
+
+.about {
+    width: 100%;
+    height: 450px;
+    
+    background-image:linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.99)), url(images/1.webp);
+    background-size:cover;
+    background-position: center;
+    margin-top: 15px;
+    
+    
+}
+
+.about h1{
+   font-family: header1;
+   text-align: center;
+   font-size: 45px;
+   color:rgb(20, 124, 243);;
+}
+
+
+
+
+
+.about-content {
+    width: 35%;
+    margin-left: 55%;
+    margin-top: -20%;
+}
+
+.about .container {
+    width: 35%;
+    height: 45%;
+    background: linear-gradient(rgba(126, 109, 109, 0.753), rgba(0,0,0,0.9));
+    margin-left: 55%;
+    padding: 20px;
+    border: 1px solid;
+    border-radius: 15px;
+    color: white;
+}
+
+.about .container1 {
+    width: 35%;
+    height: 45%;
+    background: linear-gradient(rgba(126, 109, 109, 0.753), rgba(0,0,0,0.9));
+    margin-left: 5%;
+    margin-top: -15%;
+    padding: 20px;
+    border: 1px solid;
+    border-radius: 15px;
+    color: white;
+}
+
+/*school*/
+.school {
+    height: 500px;
+    width: 100%;
+    margin-top: 20px;
+   
+}
+
+.school .slide {
+    height: 500px;
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 50%;
+   
+}
+
+.school h1{
+    font-family: header1;
+    text-align: center;
+    font-size: 45px;
+    color:rgb(20, 124, 243);;
+ }
+
+ /*contact us*/
+ .contact {
+     width: 100%;
+     height: 500px;
+     margin-top: 60px;
+     background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.9)), url(images/contact.webp);
+     background-position: center;
+     background-size: cover;
+    
+ }
+
+ .contact h1 {
+    font-family: header1;
+    text-align: center;
+    font-size: 45px;
+    color:rgb(20, 124, 243); 
+ }
+
+.contact .form-control {
+    width: 50%;
+    margin-left: 25%;
+   
+}
+
+.contact-container {
+    border: 1px solid;
+    width: 100%;
+    height: 95%;
+    background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.9));
+    margin-left: 0%;
+    justify-content: center;
+    padding: 20px;
+}
+
+.contact .text-box {
+    height: 200px;
+}
+
+.contact .btn{
+  border: 1px solid black;
+  border-radius: 15px;
+  background: cornflowerblue;
+  margin-left: 25% ;
+}
