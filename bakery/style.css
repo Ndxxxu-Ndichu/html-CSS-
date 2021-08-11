@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.9)), url(images/background.jpg);
+    height: 657px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.header .container {
+    width: 17%;
+    height: 657px;
+    position: fixed;
+    background-color: transparent;
+    backdrop-filter:contrast(90%) brightness(130%);
+}
+
+.header .container h1 {
+    font-family: 'Palette Mosaic', cursive;
+    color: white;
+}
+
+.header h3 {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    border: 1px solid transparent;
+    width: 500px;
+    margin-left: 35%;
+    margin-top: 10%;
+    padding: 17px;
+    background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.9));
+
+}
+
+
+
+.header .button-container {
+width: 100%;
+position: fixed;
+top: 50%;
+left: 0;
+transform: translateY(-50%);
+z-index: 1;
+}
+
+.header .container-btn {
+   width: 90%;
+   height: 100px;
+   font-size: 25px;
+   border: 1px solid white;
+   background-color: transparent;
+   background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9));
+   color: white;
+   border-radius: 15px;
+   margin-top: 20px;
+   margin-left: 10px;
+}
+
+.header .container-btn:hover {
+    background: transparent;
+    color: white;
+    font-family: 'Palette Mosaic', cursive;
+}
+
+.header .social-icons {
+    margin-top: 99%;
+    margin-left: 5%;
+    color: white;
+    width: 100%;
+    position: fixed;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    z-index: 1;
+    
+}
+
+.header .social-icons .fab {
+    padding: 20px;
+}
+
+.header .explore-btn {
+    margin-left: 45%;
+    margin-top: 150px;
+    width: 200px;
+    height: 150px;
+    font-size: 30px;
+    border-radius: 30px;
+    color: white;
+    background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.9));
+    transition: 1s;
+}
+
+.header .explore-btn:hover {
+    background: transparent;
+    color: white;
+    font-family: 'Palette Mosaic', cursive;
+   
+   
+}
+
+.header .explore-btn .cupcake-img {
+    width: 70px;
+    height: 60px;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.header .explore-btn .fas .fa-arrow-down {
+    height: 90px;
+}
+
+.header .text-container {
+    margin-left: 70%;
+    margin-top: -11%;
+}
+
+.header .text-container p{
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.header .menu-icon {
+    margin-left: 95%;
+    margin-top: 2px;
+    height: 35px;
+    height: 35px;
+    cursor: pointer;
+}
