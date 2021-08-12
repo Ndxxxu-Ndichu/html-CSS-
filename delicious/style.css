@@ -31,7 +31,7 @@
 .header .header-title ul {
     list-style-type: none;
     display: flex;
-    margin-left: 250px;
+    margin-left: 200px;
     border: 1px solid black;
     border-radius: 16px;
     background-color: black;
@@ -120,12 +120,12 @@
 }
 
 .header .btns {
-    margin-left: 90%;
-    margin-top: 10%;
+    margin-left: 40%;
+    margin-top: -1%;
 }
 
 .header .explore-btn{
-    margin-top: 5%;
+    margin-top: -50%;
     width: 120px;
     height: 50px;
     border: 1px solid white;
@@ -134,21 +134,20 @@
     background: black;
     color: white;
     font-size: 16px;
-    padding: 5px;
+    
 }
 
 .header .explore-btn:hover {
-    background: grey;
+    background: transparent;
     color: white;
     font-family: header;
 }
 
 .header .menu-icon {
-    margin-left: 95%;
+    margin-left: 90%;
     margin-top: -80%
 }
 
-.header .add-image {
-    margin-top: -10%;
-    height: 20px;
-}
+
+
+ 
