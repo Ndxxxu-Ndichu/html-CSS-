@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+
+.header {
+    background:transparent;
+    width: 100%;
+    height: 657px;
+    
+}
+
+.header .logo {
+    margin-top: 1%;
+    margin-left: 2%;
+    width: 100px;
+    height: 200px;
+    position: absolute;
+    transform: rotate(5deg);
+    
+}
+
+.header .header-title {
+    margin-left: 35%;
+    margin-top: 10%;
+    font-family: 'Kanit', sans-serif;
+    font-size: 100px;
+    position: absolute;
+
+}
+
+.header h6 {
+    margin-left: 35%;
+    font-family: 'Kanit', sans-serif;
+    margin-top: 20%;
+    position: absolute;
+    font-size: 25px;
+    letter-spacing: 1px;
+
+}
+
+.header .container-left{
+   background-color: saddlebrown;
+   width: 30%;
+   height: 40%;
+   border-right: 50%;
+   margin-top: 27%;
+   border-bottom-right-radius: 46%;
+   border-top-right-radius: 46% ;
+   
+   
+}
+
+.header .container-left .container-left-txt {
+    margin-top: 44%;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-weight: 700;
+    color: white;
+    margin-left: 6%;
+}
+
+.header .container-right{
+    background-color: rgb(34, 33, 77);
+    width: 30%;
+    height: 40%;
+    border-right: 50%;
+    margin-top: -34%;
+    margin-left: 70%;
+    border-bottom-left-radius: 46%;
+    border-top-left-radius: 46% ;
+    overflow: hidden;
+}
+
+.header .container-right .container-right-txt {
+    margin-top: 44%;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-weight: 700;
+    color: white;
+    margin-left: 55%;
+} 
+
+.header .img-2 {
+    margin-left: 65%;
+    margin-top: 10%;
+    width: 35%;
+    transform: rotate(-39deg);
+    position: absolute;
+}
+
+.header img {
+   margin-top: -10%;
+   width: 37%;
+   transform: rotate(30deg);
+}
+
+.header .nav {
+    margin-left: 43%;
+    position: absolute;
+}
+
+.header .nav ul {
+    display: flex;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    margin-top: 2%;
+}
+
+.header .nav ul li {
+    padding: 10px;
+    
+    font-family: 'Kanit', sans-serif;
+}
+
+.header .nav-2 {
+    
+}
+
+.header .nav-2 ul {
+    display: flex;
+    margin-left: 80%;
+    position: absolute;
+}
+
+.header .nav-2 ul li {
+    font-family: 'Kanit', sans-serif;
+    padding: 20px;
+    
+}
+
+.header .header-p {
+    position: absolute;
+    margin-left: 35%;
+    margin-top: 24%;
+    word-spacing: 5px;
+    font-family: 'Kanit', sans-serif;
+    
+}
+
+.header .explore-btn{
+    margin-left: 35%;
+    position: absolute;
+    margin-top: 35%;
+    height: 50px;
+    width: 170px;
+    background-color: black;
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    border: 1px solid white;
+}
+
+.header .nav-3 {
+    margin-left: 35%;
+    position: absolute;
+    margin-top: 43%;
+}
+
+.header .nav-3 ul {
+    display: flex;
+    
+}
+
+.header .nav-3 ul li {
+    padding: 10px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.header .left-right {
+   
+   
+}
+
+.header .left-right ul {
+    display: flex;
+    margin-left: 90%;
+    margin-top: 40%;
+    position: absolute;
+    
+}
+
+.header .left-right ul li {
+    padding: 10px;
+    color: grey;
+}
