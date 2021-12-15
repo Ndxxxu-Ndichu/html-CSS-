@@ -64,15 +64,21 @@ http://www.tooplate.com/view/2102-constructive
 									<i class="fas fa-map tm-nav-fa-icon"></i>
 									<span>Our Services</span>
 								</a>
+							</li>
+							<li>
+								<a href="#projects" id="tmNavLink3" class="scrolly" data-bg-img="butterfly2.jpg" data-page="#tm-section-3" data-page-type="carousel">
+									<i class="fas fa-map tm-nav-fa-icon"></i>
+									<span>Projects</span>
+								</a>
 							</li>							
 							<li>
-								<a href="#company" class="scrolly" data-bg-img="butterfly2.jpg" data-page="#tm-section-3">
+								<a href="#company" class="scrolly" data-bg-img="butterfly2.jpg" data-page="#tm-section-4">
 									<i class="fas fa-users tm-nav-fa-icon"></i>
 									<span>Our Company</span>
 								</a>
 							</li>
 							<li>
-								<a href="#contact" class="scrolly" data-bg-img="butterfly2.jpg" data-page="#tm-section-4">
+								<a href="#contact" class="scrolly" data-bg-img="butterfly2.jpg" data-page="#tm-section-5">
 									<i class="fas fa-comments tm-nav-fa-icon"></i>
 									<span>Contact Us</span>
 								</a>
@@ -90,16 +96,16 @@ http://www.tooplate.com/view/2102-constructive
 							<header class="mb-4"><h1 class="tm-text-shadow">Butterfly Infusion</h1></header>
 							<p class="mb-5 tm-font-big">Our job is to build performant business solutions for entrepreneurs and companies to help them grow and expand their businesses online, and in turn they can:<br>
 							
-                            <i class="fas fa-check-square"></i>Land More Clients<br>
+                            <i class="fas fa-check-square"></i> Land More Clients<br>
                             
-                            <i class="fas fa-check-square"></i>Market their businesses<br>
+                            <i class="fas fa-check-square"></i> Market their businesses<br>
                             
-                            <i class="fas fa-check-square"></i>Automate Tasks<br>
+                            <i class="fas fa-check-square"></i> Automate Tasks<br>
                             
-                            <i class="fas fa-check-square"></i>Operate on a global scale for 24hrs<br>
+                            <i class="fas fa-check-square"></i> Operate on a global scale for 24hrs<br>
                             
-                            <i class="fas fa-check-square"></i>Keep traction within ther businesses</p>
-							<a href="#" class="btn tm-btn tm-font-big" data-nav-link="#tmNavLink2">Learn More</a> 
+                            <i class="fas fa-check-square"></i> Keep traction within ther businesses</p>
+							<a href="#tm-section-2" class="btn tm-btn tm-font-big" data-nav-link="#tmNavLink2">Learn More</a> 
 							<!-- data-nav-link holds the ID of nav item, which means this link should behave the same as that nav item  -->
 						</div>
 					</section>
@@ -120,7 +126,22 @@ http://www.tooplate.com/view/2102-constructive
 					</section>
 
 					<!-- section 3 -->
-					<section id="tm-section-3" class="tm-section">						
+					<section id="tm-section-3" class="tm-section tm-section-carousel">
+						<div>
+							<header class="mb-4"><h2 class="tm-text-shadow">Projects</h2></header>		            
+							<div class="tm-img-container">
+								<div class="tm-img-slider">
+									<a href="#" class="tm-slider-img"><img src="img/1.png" alt="Image" class="img-fluid"></a>
+									<a href="#" class="tm-slider-img"><img src="img/2.png" alt="Image" class="img-fluid"></a>
+									<a href="#" class="tm-slider-img"><img src="img/3.png" alt="Image" class="img-fluid"></a>
+									<a href="#" class="tm-slider-img"><img src="img/4.png" alt="Image" class="img-fluid"></a>
+								</div>
+							</div>		            		          
+						</div>       		          	
+					</section>
+
+					<!-- section 4 -->
+					<section id="tm-section-4" class="tm-section">						
 						<div class="row mb-4">
 							<header class="col-xl-12"><h2 class="tm-text-shadow">Our Company</h2></header>		
 						</div>
@@ -165,7 +186,7 @@ http://www.tooplate.com/view/2102-constructive
 					</section>
 
 					<!-- section 4 -->
-					<section id="tm-section-4" class="tm-section">
+					<section id="tm-section-5" class="tm-section">
 						<div class="tm-bg-transparent-black tm-contact-box-pad">
 							<div class="row mb-4">
 								<div class="col-sm-12">
@@ -175,7 +196,7 @@ http://www.tooplate.com/view/2102-constructive
 							<div class="row tm-page-4-content">
 								<div class="col-md-6 col-sm-12 tm-contact-col">
 									<div class="contact_message">
-										<form action="#contact" method="post" class="contact-form">
+										<form id="myForm" action="#contact" method="post" class="contact-form">
 											<div class="form-group">
 												<input type="text" id="contact_name" name="contact_name" class="form-control" placeholder="Name" required>
 											</div>
@@ -229,7 +250,7 @@ http://www.tooplate.com/view/2102-constructive
 		function setupCarousel() {
 
 			// If current page isn't Carousel page, don't do anything.
-			if($('#tm-section-2').css('display') == "none") {
+			if($('#tm-section-2' && 'tm-section-3').css('display') == "none") {
 			}
 			else {	// If current page is Carousel page, set up the Carousel.
 
@@ -389,5 +410,18 @@ http://www.tooplate.com/view/2102-constructive
 		});
 
 		</script>
+
+<script
+type="text/javascript"
+src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"
+></script>
+
+<script type="text/javascript">      (function () {
+  emailjs.init("user_bDk7TihTe0DFZy5xev7ZM");
+})();
+</script>
+<script>
+	emailjs.sendForm("butterfly_infusion", "template_x83z07c", "#myForm")
+	</script>
 	</body>
 </html>
